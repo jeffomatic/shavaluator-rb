@@ -3,7 +3,7 @@ $:.unshift File.expand_path("../lib", __FILE__)
 require 'shavaluator/version'
 
 Gem::Specification.new do |s|
-  s.name = 'parent_paths'
+  s.name = 'shavaluator'
   s.licenses = ['MIT']
   s.summary = "Provides a convenient wrapper for sending Lua scripts to a Redis server via EVALSHA."
   s.version = Shavaluator::VERSION
