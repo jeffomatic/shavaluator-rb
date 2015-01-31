@@ -5,7 +5,7 @@ require 'shavaluator/version'
 Gem::Specification.new do |s|
   s.name = 'parent_paths'
   s.licenses = ['MIT']
-  s.summary = "Handy methods for scanning parent paths"
+  s.summary = "Provides a convenient wrapper for sending Lua scripts to a Redis server via EVALSHA."
   s.version = Shavaluator::VERSION
   s.homepage = 'https://github.com/jeffomatic/shavaluator-rb'
 
